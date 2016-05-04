@@ -1,0 +1,505 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D20B1FF21CDA4FAA00EE8C3C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D20B1FF11CDA4FAA00EE8C3C /* AppDelegate.swift */; };
+		D20B1FF41CDA4FAA00EE8C3C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D20B1FF31CDA4FAA00EE8C3C /* ViewController.swift */; };
+		D20B1FF71CDA4FAA00EE8C3C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D20B1FF51CDA4FAA00EE8C3C /* Main.storyboard */; };
+		D20B1FF91CDA4FAA00EE8C3C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D20B1FF81CDA4FAA00EE8C3C /* Assets.xcassets */; };
+		D20B1FFC1CDA4FAA00EE8C3C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D20B1FFA1CDA4FAA00EE8C3C /* LaunchScreen.storyboard */; };
+		D20B20071CDA4FAA00EE8C3C /* RuiBaoiOSDoctorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D20B20061CDA4FAA00EE8C3C /* RuiBaoiOSDoctorTests.swift */; };
+		D20B20121CDA4FAA00EE8C3C /* RuiBaoiOSDoctorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D20B20111CDA4FAA00EE8C3C /* RuiBaoiOSDoctorUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D20B20031CDA4FAA00EE8C3C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D20B1FE61CDA4FAA00EE8C3C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D20B1FED1CDA4FAA00EE8C3C;
+			remoteInfo = RuiBaoiOSDoctor;
+		};
+		D20B200E1CDA4FAA00EE8C3C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D20B1FE61CDA4FAA00EE8C3C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D20B1FED1CDA4FAA00EE8C3C;
+			remoteInfo = RuiBaoiOSDoctor;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D20B1FEE1CDA4FAA00EE8C3C /* RuiBaoiOSDoctor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RuiBaoiOSDoctor.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D20B1FF11CDA4FAA00EE8C3C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D20B1FF31CDA4FAA00EE8C3C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D20B1FF61CDA4FAA00EE8C3C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D20B1FF81CDA4FAA00EE8C3C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D20B1FFB1CDA4FAA00EE8C3C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D20B1FFD1CDA4FAA00EE8C3C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D20B20021CDA4FAA00EE8C3C /* RuiBaoiOSDoctorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RuiBaoiOSDoctorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D20B20061CDA4FAA00EE8C3C /* RuiBaoiOSDoctorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RuiBaoiOSDoctorTests.swift; sourceTree = "<group>"; };
+		D20B20081CDA4FAA00EE8C3C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D20B200D1CDA4FAA00EE8C3C /* RuiBaoiOSDoctorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RuiBaoiOSDoctorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D20B20111CDA4FAA00EE8C3C /* RuiBaoiOSDoctorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RuiBaoiOSDoctorUITests.swift; sourceTree = "<group>"; };
+		D20B20131CDA4FAA00EE8C3C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D20B1FEB1CDA4FAA00EE8C3C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D20B1FFF1CDA4FAA00EE8C3C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D20B200A1CDA4FAA00EE8C3C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D20B1FE51CDA4FAA00EE8C3C = {
+			isa = PBXGroup;
+			children = (
+				D20B1FF01CDA4FAA00EE8C3C /* RuiBaoiOSDoctor */,
+				D20B20051CDA4FAA00EE8C3C /* RuiBaoiOSDoctorTests */,
+				D20B20101CDA4FAA00EE8C3C /* RuiBaoiOSDoctorUITests */,
+				D20B1FEF1CDA4FAA00EE8C3C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D20B1FEF1CDA4FAA00EE8C3C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D20B1FEE1CDA4FAA00EE8C3C /* RuiBaoiOSDoctor.app */,
+				D20B20021CDA4FAA00EE8C3C /* RuiBaoiOSDoctorTests.xctest */,
+				D20B200D1CDA4FAA00EE8C3C /* RuiBaoiOSDoctorUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D20B1FF01CDA4FAA00EE8C3C /* RuiBaoiOSDoctor */ = {
+			isa = PBXGroup;
+			children = (
+				D20B1FF11CDA4FAA00EE8C3C /* AppDelegate.swift */,
+				D20B1FF31CDA4FAA00EE8C3C /* ViewController.swift */,
+				D20B1FF51CDA4FAA00EE8C3C /* Main.storyboard */,
+				D20B1FF81CDA4FAA00EE8C3C /* Assets.xcassets */,
+				D20B1FFA1CDA4FAA00EE8C3C /* LaunchScreen.storyboard */,
+				D20B1FFD1CDA4FAA00EE8C3C /* Info.plist */,
+			);
+			path = RuiBaoiOSDoctor;
+			sourceTree = "<group>";
+		};
+		D20B20051CDA4FAA00EE8C3C /* RuiBaoiOSDoctorTests */ = {
+			isa = PBXGroup;
+			children = (
+				D20B20061CDA4FAA00EE8C3C /* RuiBaoiOSDoctorTests.swift */,
+				D20B20081CDA4FAA00EE8C3C /* Info.plist */,
+			);
+			path = RuiBaoiOSDoctorTests;
+			sourceTree = "<group>";
+		};
+		D20B20101CDA4FAA00EE8C3C /* RuiBaoiOSDoctorUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D20B20111CDA4FAA00EE8C3C /* RuiBaoiOSDoctorUITests.swift */,
+				D20B20131CDA4FAA00EE8C3C /* Info.plist */,
+			);
+			path = RuiBaoiOSDoctorUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D20B1FED1CDA4FAA00EE8C3C /* RuiBaoiOSDoctor */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D20B20161CDA4FAA00EE8C3C /* Build configuration list for PBXNativeTarget "RuiBaoiOSDoctor" */;
+			buildPhases = (
+				D20B1FEA1CDA4FAA00EE8C3C /* Sources */,
+				D20B1FEB1CDA4FAA00EE8C3C /* Frameworks */,
+				D20B1FEC1CDA4FAA00EE8C3C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RuiBaoiOSDoctor;
+			productName = RuiBaoiOSDoctor;
+			productReference = D20B1FEE1CDA4FAA00EE8C3C /* RuiBaoiOSDoctor.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D20B20011CDA4FAA00EE8C3C /* RuiBaoiOSDoctorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D20B20191CDA4FAA00EE8C3C /* Build configuration list for PBXNativeTarget "RuiBaoiOSDoctorTests" */;
+			buildPhases = (
+				D20B1FFE1CDA4FAA00EE8C3C /* Sources */,
+				D20B1FFF1CDA4FAA00EE8C3C /* Frameworks */,
+				D20B20001CDA4FAA00EE8C3C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D20B20041CDA4FAA00EE8C3C /* PBXTargetDependency */,
+			);
+			name = RuiBaoiOSDoctorTests;
+			productName = RuiBaoiOSDoctorTests;
+			productReference = D20B20021CDA4FAA00EE8C3C /* RuiBaoiOSDoctorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D20B200C1CDA4FAA00EE8C3C /* RuiBaoiOSDoctorUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D20B201C1CDA4FAA00EE8C3C /* Build configuration list for PBXNativeTarget "RuiBaoiOSDoctorUITests" */;
+			buildPhases = (
+				D20B20091CDA4FAA00EE8C3C /* Sources */,
+				D20B200A1CDA4FAA00EE8C3C /* Frameworks */,
+				D20B200B1CDA4FAA00EE8C3C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D20B200F1CDA4FAA00EE8C3C /* PBXTargetDependency */,
+			);
+			name = RuiBaoiOSDoctorUITests;
+			productName = RuiBaoiOSDoctorUITests;
+			productReference = D20B200D1CDA4FAA00EE8C3C /* RuiBaoiOSDoctorUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D20B1FE61CDA4FAA00EE8C3C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = ConneHealth;
+				TargetAttributes = {
+					D20B1FED1CDA4FAA00EE8C3C = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					D20B20011CDA4FAA00EE8C3C = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = D20B1FED1CDA4FAA00EE8C3C;
+					};
+					D20B200C1CDA4FAA00EE8C3C = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = D20B1FED1CDA4FAA00EE8C3C;
+					};
+				};
+			};
+			buildConfigurationList = D20B1FE91CDA4FAA00EE8C3C /* Build configuration list for PBXProject "RuiBaoiOSDoctor" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D20B1FE51CDA4FAA00EE8C3C;
+			productRefGroup = D20B1FEF1CDA4FAA00EE8C3C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D20B1FED1CDA4FAA00EE8C3C /* RuiBaoiOSDoctor */,
+				D20B20011CDA4FAA00EE8C3C /* RuiBaoiOSDoctorTests */,
+				D20B200C1CDA4FAA00EE8C3C /* RuiBaoiOSDoctorUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D20B1FEC1CDA4FAA00EE8C3C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D20B1FFC1CDA4FAA00EE8C3C /* LaunchScreen.storyboard in Resources */,
+				D20B1FF91CDA4FAA00EE8C3C /* Assets.xcassets in Resources */,
+				D20B1FF71CDA4FAA00EE8C3C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D20B20001CDA4FAA00EE8C3C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D20B200B1CDA4FAA00EE8C3C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D20B1FEA1CDA4FAA00EE8C3C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D20B1FF41CDA4FAA00EE8C3C /* ViewController.swift in Sources */,
+				D20B1FF21CDA4FAA00EE8C3C /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D20B1FFE1CDA4FAA00EE8C3C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D20B20071CDA4FAA00EE8C3C /* RuiBaoiOSDoctorTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D20B20091CDA4FAA00EE8C3C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D20B20121CDA4FAA00EE8C3C /* RuiBaoiOSDoctorUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D20B20041CDA4FAA00EE8C3C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D20B1FED1CDA4FAA00EE8C3C /* RuiBaoiOSDoctor */;
+			targetProxy = D20B20031CDA4FAA00EE8C3C /* PBXContainerItemProxy */;
+		};
+		D20B200F1CDA4FAA00EE8C3C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D20B1FED1CDA4FAA00EE8C3C /* RuiBaoiOSDoctor */;
+			targetProxy = D20B200E1CDA4FAA00EE8C3C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D20B1FF51CDA4FAA00EE8C3C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D20B1FF61CDA4FAA00EE8C3C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D20B1FFA1CDA4FAA00EE8C3C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D20B1FFB1CDA4FAA00EE8C3C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D20B20141CDA4FAA00EE8C3C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D20B20151CDA4FAA00EE8C3C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D20B20171CDA4FAA00EE8C3C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = RuiBaoiOSDoctor/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.com.ConneHealth.RuiBaoiOSDoctor;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D20B20181CDA4FAA00EE8C3C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = RuiBaoiOSDoctor/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.com.ConneHealth.RuiBaoiOSDoctor;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		D20B201A1CDA4FAA00EE8C3C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = RuiBaoiOSDoctorTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.com.ConneHealth.RuiBaoiOSDoctorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RuiBaoiOSDoctor.app/RuiBaoiOSDoctor";
+			};
+			name = Debug;
+		};
+		D20B201B1CDA4FAA00EE8C3C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = RuiBaoiOSDoctorTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.com.ConneHealth.RuiBaoiOSDoctorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RuiBaoiOSDoctor.app/RuiBaoiOSDoctor";
+			};
+			name = Release;
+		};
+		D20B201D1CDA4FAA00EE8C3C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = RuiBaoiOSDoctorUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.com.ConneHealth.RuiBaoiOSDoctorUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = RuiBaoiOSDoctor;
+			};
+			name = Debug;
+		};
+		D20B201E1CDA4FAA00EE8C3C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = RuiBaoiOSDoctorUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.com.ConneHealth.RuiBaoiOSDoctorUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = RuiBaoiOSDoctor;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D20B1FE91CDA4FAA00EE8C3C /* Build configuration list for PBXProject "RuiBaoiOSDoctor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D20B20141CDA4FAA00EE8C3C /* Debug */,
+				D20B20151CDA4FAA00EE8C3C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D20B20161CDA4FAA00EE8C3C /* Build configuration list for PBXNativeTarget "RuiBaoiOSDoctor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D20B20171CDA4FAA00EE8C3C /* Debug */,
+				D20B20181CDA4FAA00EE8C3C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D20B20191CDA4FAA00EE8C3C /* Build configuration list for PBXNativeTarget "RuiBaoiOSDoctorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D20B201A1CDA4FAA00EE8C3C /* Debug */,
+				D20B201B1CDA4FAA00EE8C3C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D20B201C1CDA4FAA00EE8C3C /* Build configuration list for PBXNativeTarget "RuiBaoiOSDoctorUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D20B201D1CDA4FAA00EE8C3C /* Debug */,
+				D20B201E1CDA4FAA00EE8C3C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D20B1FE61CDA4FAA00EE8C3C /* Project object */;
+}
